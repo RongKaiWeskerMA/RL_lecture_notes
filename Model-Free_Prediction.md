@@ -36,11 +36,12 @@ where $R_{t+1} + \gamma V(S_{t+1})$ is the TD target.
 
 - Monte Carlo is an unbiased estimate of $V(S_t)$
 - True TD target is also an unbiased estimate of $V(S_t)$
-- TD target $R_{t+1} + \gamma V(S_{t+1})$ is a biased estimates of $V_{\pi}(S_t)
-$
-but is lower variance
+- TD target $R_{t+1} + \gamma V(S_{t+1})$ is a biased estimates of $V_{\pi}(S_t)$
+but is lower variance.
 
 
+
+# TD($\lambda$)
 
 
 
